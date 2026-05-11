@@ -1,6 +1,5 @@
-// components/Qualifications.js
 import React from 'react';
-import { Container, Typography, Grid, Box } from '@mui/material';
+import { Container, Grid, Box } from '@mui/material';
 import Education from './Education';
 import Certifications from './Certifications';
 import Skills from './Skills';
@@ -14,28 +13,24 @@ const Qualifications = () => {
       }}
     >
       <Container sx={{ marginTop: '2rem', marginBottom: '2rem' }}>
-        {/* Grid for Qualification Cards */}
         <Grid
           container
           spacing={4}
           sx={{
-            display: 'flex', // Enables flexbox
-            justifyContent: 'center', // Centers horizontally
-            alignItems: 'center', // Centers vertically if needed
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'stretch',
           }}
         >
-          {/* Education Section */}
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} md={4} sx={{ display: 'flex' }}>
             <Education />
           </Grid>
 
-          {/* Certifications Section */}
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} md={4} sx={{ display: 'flex' }}>
             <Certifications />
           </Grid>
 
-          {/* Skills Section */}
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} md={4} sx={{ display: 'flex' }}>
             <Skills />
           </Grid>
         </Grid>

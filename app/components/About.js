@@ -78,7 +78,7 @@ const About = () => {
               <Email />
             </IconButton>
             <IconButton
-              href="/ResumeFall2024.pdf"
+              href="/Resume.pdf"
               target="_blank"
               sx={{ color: "#ff0000" }}
             >
@@ -214,7 +214,7 @@ const About = () => {
                       opacity: 0,
                     }}
                   >
-                    Work Term I at Corsphere as Front End UI Developer (May 2024 - August2024)
+                    Front End Developer at Corsphere (May 2024 - August 2024)
                   </Typography>
                 </Box>
 
@@ -258,7 +258,51 @@ const About = () => {
                       opacity: 0,
                     }}
                   >
-                    Front End UI Developer (Part-time) at Corsphere (September 2024 - Present)
+                    Full Stack Developer at Corsphere (September 2024 - Present)
+                  </Typography>
+                </Box>
+
+                {/* Line 3 */}
+                <Box
+                  className="timeline-line"
+                  sx={{
+                    width: "2px",
+                    height: "30px",
+                    backgroundColor: "#0e76a8",
+                    marginLeft: "4px",
+                    animation: "fadeInOutTimeline 8s infinite 5s",
+                    opacity: 0,
+                  }}
+                />
+
+                {/* Dot 4 */}
+                <Box
+                  sx={{
+                    position: "relative",
+                    display: "flex",
+                    alignItems: "center",
+                  }}
+                >
+                  <Box
+                    className="timeline-dot"
+                    sx={{
+                      width: "10px",
+                      height: "10px",
+                      borderRadius: "50%",
+                      backgroundColor: "#0e76a8",
+                      marginRight: "1rem",
+                      animation: "fadeInOutTimeline 8s infinite 6s",
+                      opacity: 0,
+                    }}
+                  />
+                  <Typography
+                    sx={{
+                      color: "black",
+                      animation: "fadeInOutTimeline 8s infinite 6s",
+                      opacity: 0,
+                    }}
+                  >
+                    Completed Software Development Co-op at CNA (April 2026)
                   </Typography>
                 </Box>
               </Box>
