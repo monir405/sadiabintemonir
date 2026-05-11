@@ -214,7 +214,7 @@ const About = () => {
                       opacity: 0,
                     }}
                   >
-                    Front End Developer at Corsphere (May 2024 - August 2024)
+                    Front End Developer at Corsphere (May 2022 - April 2023)
                   </Typography>
                 </Box>
 
@@ -258,7 +258,7 @@ const About = () => {
                       opacity: 0,
                     }}
                   >
-                    Full Stack Developer at Corsphere (September 2024 - Present)
+                    Full Stack Developer at Corsphere (April 2023 - Present)
                   </Typography>
                 </Box>
 
